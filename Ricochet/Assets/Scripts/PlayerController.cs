@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-
     float angle;
     public GameObject projectilePrefab;
+    public GameObject laser;
     // Start is called before the first frame update
     void Start()
     {
-        
+        //Vector2 laserOffset = new Vector2(transform.position.x + 0.46f, transform.position.y + 0.08f);
+        //laser.transform.position = laserOffset;
+        Instantiate(laser, transform);
     }
 
     // Update is called once per frame
