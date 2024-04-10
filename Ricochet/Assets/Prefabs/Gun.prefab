@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1414357783330239651}
   - component: {fileID: 9129425991064990239}
-  - component: {fileID: 5332321567509793732}
+  - component: {fileID: 3466569273858983057}
   m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
@@ -85,7 +85,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5332321567509793732
+--- !u!114 &3466569273858983057
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -98,4 +98,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 8064609346430127568, guid: bdb5ce1ec36bc1b4b80a9a4c48c8c98a, type: 3}
-  laser: {fileID: 7457680669802063005, guid: 0bed3065cb9f59247bbc8eaf3f5c3d65, type: 3}
+  lineRenderer: {fileID: 0}
+  firePoint: {fileID: 0}
